@@ -12,7 +12,8 @@ function App() {
       method: "GET",
     };
     //var url = "http://localhost:3000/customer/id?cid=" + custId;
-    var url = "https://nus-backend.herokuapp.com/customer/id?cid=" + custId;
+    //var url = "https://nus-backend.herokuapp.com/customer/id?cid=" + custId;
+    var url = "https://devops-day2.herokuapp.com/customer/id?cid=" + custId;
     console.log(url); 
     fetch(url, requestOptions)
       .then((response) => response.json())
@@ -25,7 +26,8 @@ function App() {
       method: "GET",
     };
     //var url = "http://localhost:3000/customer/all";
-    var url = "https://nus-backend.herokuapp.com/customer/all";
+    //var url = "https://nus-backend.herokuapp.com/customer/all";
+    var url = "https://devops-day2.herokuapp.com/customer/all";
     
     console.log(url);
     fetch(url, requestOptions)
